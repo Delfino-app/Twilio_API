@@ -1,0 +1,14 @@
+{
+    "name":"twilio/app",
+    "description":"Twilio_Api App to consume whatsApp API from Twilio Client",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "twilio/sdk": "^6.35"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
